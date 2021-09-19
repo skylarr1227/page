@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Patch Notes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+    <div class="top"><header>
+    <div class="container-new2 py-6 px-3 text-center">
+      <a href="/">
+        <h1>Mewbot Update Notes</h1>
+      </a>
+      <ul class="nav list-style-none d-flex flex-justify-center f4">
+        <li>
+          <a class="d-inline-block m-2" href="https://mewbot.wiki">Wiki</a>
+        </li>
+        <li>
+          <a class="d-inline-block m-2 current" href="/updates">Release Notes</a>
+        </li>
+        <li>
+          <a class="d-inline-block m-2" href="https://discord.gg/">Support Server</a>
+        </li>
+      </ul>
+
+      </div></div>
+  </header>
+  <br>
+
+  <div class="container-new">
+    <div class="col-md-8 mx-auto">
+      <div class="padding16 margin24">
+        <h1 class="f1-light text-white ">
+    Timeline
+  </h1>
+        <p>
+          View release notes for <a href="/updates">Mewbot discord bot</a>
+        </p>
+      </div>
+
+      <div id="release-notes">
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-cf4f p-1 rounded-1 mr-2 text-bold">Major Update</span>
+            <h2 class="f3-light css-truncate css-truncate-target">9/18/021 - . Conversion to "/" and other small updates  </h2></header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex mb-2">
+              <div class="change-badge change-badge-improved">CHANGE</div>
+              <div><h3>Mewbot now uses <code>slash commands</code> instead of <code>text commands</code>.</h3>
+Type <code>/</code> and then the command such as "<code>/info</code>", for all other Mewbot commands. If you do not see Mewbot's commands when you type <code>/</code>, check and make sure you see the mewbot logo in the pop up menu-click it-and you should start to see commands come up. If you still cannot see mewbot commands after trying that, check that you have the "Use Application Commands" permission in the server, this can be overridden by channel permissions as well. If you do, and still cannot see Mewbot's commands, you may need to reinvite the bot to give it permission to use slash commands. Have the owner of the server run <code>;slashinvite</code> to get an invite link that will give the bot the permissions it needs for slash commands. You will need to kick and reinvite the bot using that link to ensure permissions are correct. Your data will not be lost.
+If you need any additional help, join the support server by clicking the link above.</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+             
+             
+   
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-new">FIX</div>
+              <div class="change-description">Fixed an error in the displayed stats for all pokemon at max level with EV's set. Previously, stats would sometimes be 1 point higher than they should have been at max level with EV's set..</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              
+              
+            </li>
+          </ul>
+        </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="change-badge change-badge-new">Minor UPDATE</span>
+            <h2 class="f3-light css-truncate css-truncate-target">9/14/21 - Movesets pt.2</h2></header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex mb-2">
+              <div class="change-badge change-badge-new">Update</div>
+              <div>Generation 8 pokemon movesets are now all correct.</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-new">UPDATE</div>
+              <div class="change-description">Generations 1-7 now have the correct movesets, and all learn the correct moves.</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              
+            </li>
+          </ul>
+        </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3"> <span class="change-badge change-badge-new">Minor Update</span>
+            <h2 class="f3-light css-truncate css-truncate-target">9/9/21 - Movesets pt.1</h2></header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-new">FIX</div>
+              <div class="change-description"> - Movesets have been very carefully corrected and updated due to many pokemon learning things or not learnings they should/should not. <strong>Thanks to @Cruithne , @Mabel and help from @Danse.</strong></div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+             
+          </ul>
+        </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3"><span class="version-badge d-inline-block bg-cf4f p-1 rounded-1 mr-2 text-bold">MAJOR UPDATE</span>
+            <h2 class="f3-light css-truncate css-truncate-target">From 8/15/21 to 9/8/21</h2></header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">CHANGE 8/15/21</div>
+              <div class="change-description"><h3>Duels has been rewritten</h3>, and should function much more closely to how it does in the games. In this rewrite, commands have been changed to <strong>;duel, ;duel party, and ;duel npc.</strong></div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-new">FIX 9/6/21</div>
+              <div class="change-description">Slowking-galar, and Slowbro-galar are now fixed! They can spawn, be redeemed, and bred properly. -Sorry it took so long!</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">CHANGE 8/26/21</div>
+              <div class="change-description"><h3>Update to ;party command.</h3> You can now save your current party with ;party register <name of party> and then load it at any time with ;party load <name of party>. To update a saved party, use ;party register <same name as before> making sure to use the name you used before, and it will update that party with your current one. You can also use ;party list to show all of your saved party's.
+</div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+  
+  
+<div id="custom-footer">
+    <div class="custom-footer-wrapper">
+        <div class="media-block">
+            <a class="media-link" href="https://twitter.com/mewbotos">
+                <img src="https://s3.amazonaws.com/files.enjin.com/851662/Footer_Images_Optimised/Twitter-min.png" />
+            </a>
+            
+            </a>
+            <a class="media-link discord-link" href="https://discord.gg/mewbot">
+                <img src="https://s3.amazonaws.com/files.enjin.com/851662/Footer_Images_Optimised/Discord-min.png"/>
+            </a>
+        </div>
+        <div class="text">
+            Have any questions or need assistance? Try the official server!
+        </div>
+        <div class="help-block">
+            <a class="help-button" href="https://discord.gg/mewbot">
+                 MEWBOT OFFICIAL SERVER 
+            </a>
+            <a class="help-button" href="https://mewbot.store">
+                STORE
+            </a>
+        </div>
+        <div class="copyright-block">
+            <i class="material-icons">copyright</i> 2021 Mewbot LLC<br>
+            Managed by <a href="https://mewbot.xyz">Mewbot Development</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('#custom-footer').appendTo('body');
+</script>
+<!-- partial -->
+  
+</body>
+</html>
